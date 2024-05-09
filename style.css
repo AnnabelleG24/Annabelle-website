@@ -1,32 +1,45 @@
 
+.topnav {
+  background-color: #910C05;
+overflow: hidden}
+
+.topnav a {
+	float:left;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 20px;
+}
+.topnav a:hover {
+	background-color: whitesmoke;
+	color:#910C05;
+} 
+
+.topnav a.active {
+	background-color:#DD231A;
+	color:white;
+}
+}
+  
 body{
 	background-color: whitesmoke;
 }
 	h1 {
-		font-size: 60px;
+		font-size: 80px;
 		color: #910C05;
 		text-shadow: 6px 6px #C9C5C5;
 }
 
 h2 {
-		font-size: 40px;
+		font-size: 70px;
 		color: #DD231A;
 		text-shadow: 6px 6px #C9C5C5;
 		font-weight: bolder;
+		text-align: center;
 
 
+}
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-	}
+	
